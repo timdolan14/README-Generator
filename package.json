@@ -11,5 +11,8 @@
     "Generator"
   ],
   "author": "Tim Dolan",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.0"
+  }
 }
