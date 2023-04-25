@@ -1,8 +1,8 @@
 ## README Generator 
 
-## Deployed URL
-
 ## Github Repo
+
+https://github.com/timdolan14/README-Generator
 
 ## Description 
 
