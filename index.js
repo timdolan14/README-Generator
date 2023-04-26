@@ -21,13 +21,13 @@ const questions = [
     {
         type: 'input',
         name: 'email',
-        message: 'What is your Email Address?',
+        message: 'What is your email address?',
     },
 
     {
         type: 'input',
         name: 'description',
-        message: 'Please provide a description of this Project.',
+        message: 'Please provide a description of this project.',
     },
 
     {
@@ -38,45 +38,67 @@ const questions = [
 
     {
         type: 'input',
-        name: 'contributions',
-        message: 'Can users contribute to this project?',
+        name: 'credits',
+        message: 'List your collaborators, if any, with links to their Github profiles.',
     },
     {
         type: 'input',
         name: 'tests',
-        message: 'How can users test this project?',
+        message: 'Can users test this project? If so, please explain.',
     },
     {
         type: 'list',
         name: 'licenses',
-        message: 'Which license will be used for this project?',
+        message: 'Which license(s) will be used for this project?',
         choices: ['Academic Free License v3.0', 'Apache license 2.0', 'Creative Commons Attribution 4.0', 'GNU General Public License family'],
+    },
+    {
+        type: 'input',
+        name: 'installation',
+        message: 'What are the steps required to install your project?',
+        
+    },
+    {
+        type: 'input',
+        name: 'Usage',
+        message: 'Provde instructions and examples for use.',
+        
     },
 
 ];
 
 // Function to initialize app 
+// Creates Format of ReadME and applies responses to specific areas
 
-const writeToFile = ({title, github, email, description, instructions, contributions, tests, licenses}) => 
+const writeToFile = ({title, github, email, description, instructions, credits, tests, licenses, Installation, Usage}) => 
 
 `
-## Title 
-${title}
+# ${title}
 ## Github 
 ${github}
+## Email
+${email}
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#licenses)
 ## Description 
 ${description}
 ## Instructions 
 ${instructions}
-## Contributions 
-${contributions}
+## Credits
+${credits}
 ## Tests 
 ${tests}
+## Installation 
+${Installation}
+## Usage 
+${Usage}
 ## Licenses 
 ${licenses}`;
 
 // Function to Create File
-
 function init () {
 inquirer.prompt(questions)
     .then((response) => {

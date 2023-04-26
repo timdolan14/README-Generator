@@ -1,15 +1,25 @@
 
-## Title 
-tim
+# Test Project
 ## Github 
-tim
+timdolan13
+## Email
+timmydolan14@gmail.com
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#licenses)
 ## Description 
-tim
+test README Gen
 ## Instructions 
-tim
-## Contributions 
-tim
+download node
+## Credits
+N/A
 ## Tests 
-tim
+run node.js
+## Installation 
+undefined
+## Usage 
+Test
 ## Licenses 
-Apache license 2.0
+Creative Commons Attribution 4.0
