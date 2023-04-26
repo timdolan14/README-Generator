@@ -56,47 +56,47 @@ const questions = [
         type: 'input',
         name: 'installation',
         message: 'What are the steps required to install your project?',
-        
     },
     {
         type: 'input',
         name: 'Usage',
-        message: 'Provde instructions and examples for use.',
-        
+        message: 'Provde instructions and examples for usage. Include screenshots if neccessary.',
     },
 
 ];
 
 // Function to initialize app 
 // Creates Format of ReadME and applies responses to specific areas
+// Allows users to click on the table of contents and be directed to that specific area
 
-const writeToFile = ({title, github, email, description, instructions, credits, tests, licenses, Installation, Usage}) => 
+const writeToFile = ({title, github, email, description, instructions, credits, tests, licenses, installation, Usage}) => 
 
 `
 # ${title}
-## Github 
+## Github Username
 ${github}
-## Email
-${email}
-## Table of Contents
+## Description 
+${description}
+## Table of Contents 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
-- [License](#licenses)
-## Description 
-${description}
+- [Licenses](#licenses)
 ## Instructions 
 ${instructions}
-## Credits
-${credits}
 ## Tests 
 ${tests}
 ## Installation 
-${Installation}
+${installation}
 ## Usage 
 ${Usage}
+## Credits
+${credits}
 ## Licenses 
-${licenses}`;
+${licenses}
+## Questions
+If you have any additional questions, please contact me via email at ${email}. Thank you!
+`;
 
 // Function to Create File
 function init () {

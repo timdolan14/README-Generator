@@ -1,25 +1,25 @@
 
 # Test Project
-## Github 
-timdolan13
-## Email
-timmydolan14@gmail.com
-## Table of Contents
+## Github Username
+timdolan14
+## Description 
+READme Gen
+## Table of Contents 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
-- [License](#licenses)
-## Description 
-test README Gen
+- [Licenses](#licenses)
 ## Instructions 
-download node
-## Credits
-N/A
+install node
 ## Tests 
-run node.js
+run node
 ## Installation 
-undefined
+install node
 ## Usage 
-Test
+run ndoe
+## Credits
+n/a
 ## Licenses 
-Creative Commons Attribution 4.0
+Apache license 2.0
+## Questions
+If you have any additional questions, please contact me via email at timmydolan14@gmail.com. Thank you!
