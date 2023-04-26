@@ -54,7 +54,8 @@ inquirer.prompt([
         });
     })
 
+// TODO: Create a function to initialize app
+function init() {}
 
-// Function to prompt questions above
-
-// Call function
+// Function call to initialize app
+init();
