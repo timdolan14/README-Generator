@@ -1,23 +1,24 @@
 
-# Test
-## Github Username
-[timdolan14](https://github.com/timdolan14)
+# Project Test
 ## Description 
-Test node
+Test
 ## Table of Contents 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
 - [Licenses](#licenses)
-## Tests
-run node
+- [Contributing](#contributing)
+- [Tests](#tests)
 ## Installation
 install node
 ## Usage 
-yes
-## Contributing
-n/a
+Test
 ## Licenses 
 Academic Free License v3.0
+## Contributing
+n/a
+## Tests
+yes
 ## Questions
-If you have any additional questions, please contact me via email at timdolan32@gmail.com. Thank you!
+Find my Github profile here: [timdolan14](https://github.com/timdolan14).
+If you have any additional questions, please contact me via email at timmydolan14@gmail.com.
+Thank you!

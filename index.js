@@ -66,27 +66,28 @@ const writeToFile = ({title, github, email, description, contributing, tests, li
 
 `
 # ${title}
-## Github Username
-[${github}](https://github.com/${github})
 ## Description 
 ${description}
 ## Table of Contents 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
 - [Licenses](#licenses)
-## Tests
-${tests}
+- [Contributing](#contributing)
+- [Tests](#tests)
 ## Installation
 ${installation}
 ## Usage 
 ${Usage}
-## Contributing
-${contributing}
 ## Licenses 
 ${licenses}
+## Contributing
+${contributing}
+## Tests
+${tests}
 ## Questions
-If you have any additional questions, please contact me via email at ${email}. Thank you!
+Find my Github profile here: [${github}](https://github.com/${github}).
+If you have any additional questions, please contact me via email at ${email}.
+Thank you!
 `;
 
 // Function to Create File
