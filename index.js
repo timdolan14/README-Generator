@@ -2,9 +2,11 @@
 // const { default: inquirer } = require('inquirer');
 const inquirer = require('inquirer');
 const fs = require('fs');
+const generateMD = require("./utils/generateMarkdown");
 
 // Establish Questions
-inquirer.prompt([
+
+const questions = [
     {
         type: 'input',
         name: 'title',
@@ -31,31 +33,39 @@ inquirer.prompt([
     {
         type: 'input',
         name: 'instructions',
-        message: 'Please provide Instructions for this Project.',
+        message: 'Please provide instructions for this project.',
     },
 
     {
         type: 'input',
         name: 'contributions',
-        message: 'Can Users contribute to this project?',
+        message: 'Can users contribute to this project?',
     },
-
     {
         type: 'input',
         name: 'tests',
-        message: 'How can Users test this project?',
+        message: 'How can users test this project?',
+    },
+    {
+        type: 'input',
+        name: 'licenses',
+        message: 'Which license will be used for this project?',
+        choices: ['Academic Free License v3.0', 'Apache license 2.0', 'Creative Commons Attribution 4.0', 'GNU General Public License family'],
     },
 
-])
+];
+
+// Function to initialize app and Create File
+
+function init () {
+inquirer.prompt(questions)
     .then((response) => {
         console.log(response);
         fs.writeFile('README_GEN.md', JSON.stringify(response, null, '\t'), (err) => {
             err ? console.log(err) : console.log("Succcess");
         });
     })
-
-// TODO: Create a function to initialize app
-function init() {}
+}
 
 // Function call to initialize app
 init();
