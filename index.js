@@ -29,16 +29,9 @@ const questions = [
         name: 'description',
         message: 'Please provide a description of this project.',
     },
-
     {
         type: 'input',
-        name: 'instructions',
-        message: 'Please provide instructions for this project.',
-    },
-
-    {
-        type: 'input',
-        name: 'credits',
+        name: 'contributing',
         message: 'List your collaborators, if any, with links to their Github profiles.',
     },
     {
@@ -69,29 +62,27 @@ const questions = [
 // Creates Format of ReadME and applies responses to specific areas
 // Allows users to click on the table of contents and be directed to that specific area
 
-const writeToFile = ({title, github, email, description, instructions, credits, tests, licenses, installation, Usage}) => 
+const writeToFile = ({title, github, email, description, contributing, tests, licenses, installation, Usage}) => 
 
 `
 # ${title}
 ## Github Username
-${github}
+[${github}](https://github.com/${github})
 ## Description 
 ${description}
 ## Table of Contents 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Credits](#credits)
+- [Contributing](#contributing)
 - [Licenses](#licenses)
-## Instructions 
-${instructions}
-## Tests 
+## Tests
 ${tests}
-## Installation 
+## Installation
 ${installation}
 ## Usage 
 ${Usage}
-## Credits
-${credits}
+## Contributing
+${contributing}
 ## Licenses 
 ${licenses}
 ## Questions

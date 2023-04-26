@@ -1,25 +1,23 @@
 
-# Test Project
+# Test
 ## Github Username
-timdolan14
+[timdolan14](https://github.com/timdolan14)
 ## Description 
-READme Gen
+Test node
 ## Table of Contents 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Credits](#credits)
+- [Contributing](#contributing)
 - [Licenses](#licenses)
-## Instructions 
-install node
-## Tests 
+## Tests
 run node
-## Installation 
+## Installation
 install node
 ## Usage 
-run ndoe
-## Credits
+yes
+## Contributing
 n/a
 ## Licenses 
-Apache license 2.0
+Academic Free License v3.0
 ## Questions
-If you have any additional questions, please contact me via email at timmydolan14@gmail.com. Thank you!
+If you have any additional questions, please contact me via email at timdolan32@gmail.com. Thank you!
