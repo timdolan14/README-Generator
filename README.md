@@ -1,8 +1,8 @@
 
 # ReadMe Gen
-![GPL](https://img.shields.io/badge/license-GPL-blue.svg)
+![Apache](https://img.shields.io/badge/license-Apache-blue.svg)
 ## Description 
-ReadMe Gen using Node
+README GEN
 ## Table of Contents 
 - [Installation](#installation)
 - [Usage](#usage)
@@ -10,13 +10,13 @@ ReadMe Gen using Node
 - [Contributing](#contributing)
 - [Tests](#tests)
 ## Installation
-Install Node
+INstall Node
 ## Usage 
-Run node in Term
+Run node
 ## License
-This application is covered by the GPL license.
+This application is covered by the Apache license.
 ## Contributing
-n/a
+N/a
 ## Tests
 Yes, run node.js
 ## Questions

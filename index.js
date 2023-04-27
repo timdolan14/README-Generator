@@ -96,7 +96,7 @@ function init () {
 inquirer.prompt(questions)
     .then((response) => {
         console.log(response);
-        fs.writeFile('README_GEN.md', writeToFile(response), (err) => {
+        fs.writeFile('README.md', writeToFile(response), (err) => {
             err ? console.log(err) : console.log("Succcess");
         });
     })
