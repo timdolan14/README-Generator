@@ -1,5 +1,5 @@
 
-# Project Test
+# Test Project
 ## Description 
 Test
 ## Table of Contents 
@@ -9,15 +9,15 @@ Test
 - [Contributing](#contributing)
 - [Tests](#tests)
 ## Installation
-install node
+INstall node
 ## Usage 
-Test
+no
 ## Licenses 
-Academic Free License v3.0
+[GPL](https://img.shields.io/badge/license-GPL-blue.svg)
 ## Contributing
 n/a
 ## Tests
-yes
+Yes
 ## Questions
 Find my Github profile here: [timdolan14](https://github.com/timdolan14).
 If you have any additional questions, please contact me via email at timmydolan14@gmail.com.

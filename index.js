@@ -43,7 +43,7 @@ const questions = [
         type: 'list',
         name: 'licenses',
         message: 'Which license(s) will be used for this project?',
-        choices: ['Academic Free License v3.0', 'Apache license 2.0', 'Creative Commons Attribution 4.0', 'GNU General Public License family'],
+        choices: ['MIT','Apache','GPL', 'Apache 2'],
     },
     {
         type: 'input',
@@ -79,7 +79,7 @@ ${installation}
 ## Usage 
 ${Usage}
 ## Licenses 
-${licenses}
+[${licenses}](https://img.shields.io/badge/license-${licenses}-blue.svg)
 ## Contributing
 ${contributing}
 ## Tests
