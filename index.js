@@ -43,7 +43,7 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'Which license(s) will be used for this project?',
-        choices: ['MIT','Apache','GPL', 'Apache 2'],
+        choices: ['MIT','Apache','GPL'],
     },
     {
         type: 'input',
@@ -79,7 +79,7 @@ ${installation}
 ## Usage 
 ${Usage}
 ## License
-[${license}](https://img.shields.io/badge/license-${license}-blue.svg) - 
+![${license}](https://img.shields.io/badge/license-${license}-blue.svg)
 This application is covered by the ${license} license.
 ## Contributing
 ${contributing}

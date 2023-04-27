@@ -1,7 +1,7 @@
 
-# ReadMe Gen
+# Project ReadMe
 ## Description 
-ReadMe Gen using Node
+test
 ## Table of Contents 
 - [Installation](#installation)
 - [Usage](#usage)
@@ -9,16 +9,16 @@ ReadMe Gen using Node
 - [Contributing](#contributing)
 - [Tests](#tests)
 ## Installation
-Install Node
+install node
 ## Usage 
-Run Node
+n/a
 ## License
-[MIT](https://img.shields.io/badge/license-MIT-blue.svg) - 
-This application is covered by the MIT license.
+![Apache](https://img.shields.io/badge/license-Apache-blue.svg)
+This application is covered by the Apache license.
 ## Contributing
-N/A
+n/a
 ## Tests
-Run node in term
+run ndoe
 ## Questions
 Find my Github profile here: [timdolan14](https://github.com/timdolan14).
 If you have any additional questions, please contact me via email at timmydolan14@gmail.com.
