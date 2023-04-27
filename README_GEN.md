@@ -1,7 +1,8 @@
 
-# ReadMe
+# ReadMe Gen
+![GPL](https://img.shields.io/badge/license-GPL-blue.svg)
 ## Description 
-Test
+ReadMe Gen using Node
 ## Table of Contents 
 - [Installation](#installation)
 - [Usage](#usage)
@@ -9,16 +10,15 @@ Test
 - [Contributing](#contributing)
 - [Tests](#tests)
 ## Installation
-node
+Install Node
 ## Usage 
-n/a
+Run node in Term
 ## License
-![GPL](https://img.shields.io/badge/license-GPL-blue.svg)
 This application is covered by the GPL license.
 ## Contributing
 n/a
 ## Tests
-no
+Yes, run node.js
 ## Questions
 Find my Github profile here: [timdolan14](https://github.com/timdolan14).
 If you have any additional questions, please contact me via email at timmydolan14@gmail.com.

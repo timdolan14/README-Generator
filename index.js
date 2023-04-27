@@ -66,6 +66,7 @@ const writeToFile = ({title, github, email, description, contributing, tests, li
 
 `
 # ${title}
+![${license}](https://img.shields.io/badge/license-${license}-blue.svg)
 ## Description 
 ${description}
 ## Table of Contents 
@@ -79,7 +80,6 @@ ${installation}
 ## Usage 
 ${Usage}
 ## License
-![${license}](https://img.shields.io/badge/license-${license}-blue.svg)
 This application is covered by the ${license} license.
 ## Contributing
 ${contributing}
