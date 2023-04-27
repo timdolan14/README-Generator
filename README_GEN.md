@@ -1,23 +1,24 @@
 
-# Test Project
+# ReadMe Gen
 ## Description 
-Test
+ReadMe Gen using Node
 ## Table of Contents 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Licenses](#licenses)
+- [License](#license)
 - [Contributing](#contributing)
 - [Tests](#tests)
 ## Installation
-INstall node
+Install Node
 ## Usage 
-no
-## Licenses 
-[GPL](https://img.shields.io/badge/license-GPL-blue.svg)
+Run Node
+## License
+[MIT](https://img.shields.io/badge/license-MIT-blue.svg) - 
+This application is covered by the MIT license.
 ## Contributing
-n/a
+N/A
 ## Tests
-Yes
+Run node in term
 ## Questions
 Find my Github profile here: [timdolan14](https://github.com/timdolan14).
 If you have any additional questions, please contact me via email at timmydolan14@gmail.com.

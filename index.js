@@ -41,7 +41,7 @@ const questions = [
     },
     {
         type: 'list',
-        name: 'licenses',
+        name: 'license',
         message: 'Which license(s) will be used for this project?',
         choices: ['MIT','Apache','GPL', 'Apache 2'],
     },
@@ -62,7 +62,7 @@ const questions = [
 // Creates Format of ReadME and applies responses to specific areas
 // Allows users to click on the table of contents and be directed to that specific area
 
-const writeToFile = ({title, github, email, description, contributing, tests, licenses, installation, Usage}) => 
+const writeToFile = ({title, github, email, description, contributing, tests, license, installation, Usage}) => 
 
 `
 # ${title}
@@ -71,15 +71,16 @@ ${description}
 ## Table of Contents 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Licenses](#licenses)
+- [License](#license)
 - [Contributing](#contributing)
 - [Tests](#tests)
 ## Installation
 ${installation}
 ## Usage 
 ${Usage}
-## Licenses 
-[${licenses}](https://img.shields.io/badge/license-${licenses}-blue.svg)
+## License
+[${license}](https://img.shields.io/badge/license-${license}-blue.svg) - 
+This application is covered by the ${license} license.
 ## Contributing
 ${contributing}
 ## Tests
