@@ -1,7 +1,7 @@
 
-# Project ReadMe
+# ReadMe
 ## Description 
-test
+Test
 ## Table of Contents 
 - [Installation](#installation)
 - [Usage](#usage)
@@ -9,16 +9,16 @@ test
 - [Contributing](#contributing)
 - [Tests](#tests)
 ## Installation
-install node
+node
 ## Usage 
 n/a
 ## License
-![Apache](https://img.shields.io/badge/license-Apache-blue.svg)
-This application is covered by the Apache license.
+![GPL](https://img.shields.io/badge/license-GPL-blue.svg)
+This application is covered by the GPL license.
 ## Contributing
 n/a
 ## Tests
-run ndoe
+no
 ## Questions
 Find my Github profile here: [timdolan14](https://github.com/timdolan14).
 If you have any additional questions, please contact me via email at timmydolan14@gmail.com.
