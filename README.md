@@ -10,7 +10,7 @@ README GEN
 - [Contributing](#contributing)
 - [Tests](#tests)
 ## Installation
-INstall Node
+Install Node
 ## Usage 
 Run node
 ## License
